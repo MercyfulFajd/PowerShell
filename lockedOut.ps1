@@ -1,0 +1,1 @@
+﻿get-eventlog -LogName Security -ComputerName BCEPEDC01 -After <2/16/2020> -InstanceId 4740 -Message <userid> | select-object -property *
